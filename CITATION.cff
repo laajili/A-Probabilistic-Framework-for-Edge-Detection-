@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "A Probabilistic Framework for Edge Detection Based on Local Intensity Differences"
+authors:
+  - family-names: "Nefzi"
+    given-names: "Wiem"
+  - family-names: "Lajili"
+    given-names: "Mohamed"
+year: 2026
+journal: "The Visual Computer"
+repository-code: "https://github.com/USERNAME/Probabilistic-Edge-Detection"
+license: "MIT"
