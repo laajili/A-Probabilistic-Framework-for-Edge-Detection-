@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Probabilistic Edge Detection Based on Local Intensity Differences
 
 Official implementation of the method described in:
@@ -218,3 +219,7 @@ If you use this code, please cite:
 ## License
 
 This project is released under the MIT License.
+=======
+# A-Probabilistic-Framework-for-Edge-Detection
+Full source code and datasets for the A Probabilistic Framework for Edge Detection Based on Local Intensity Differences (The Visual Computer submission).
+>>>>>>> 8a501d9a6f00bf62a5c83e66a71c1585230bd590
