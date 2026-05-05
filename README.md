@@ -216,6 +216,13 @@ If you use this code, please cite:
 }
 ```
 
+## DOI
+
+This repository is archived and available at:
+
+https://doi.org/10.5281/zenodo.20036523
+
+
 ## License
 
 This project is released under the MIT License.
