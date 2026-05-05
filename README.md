@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Probabilistic Edge Detection Based on Local Intensity Differences
 
 Official implementation of the method described in:
