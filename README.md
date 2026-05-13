@@ -29,7 +29,6 @@ where:
 - Lightweight computation
 - No training stage
 - Robustness analysis under Gaussian noise
-- BSDS500-style evaluation utilities
 - Lambda and threshold grid search
 - Visualization tools for threshold analysis
 
@@ -51,7 +50,6 @@ Probabilistic-Edge-Detection/
 |   |-- bsds500_evaluation.py
 |   |-- lambda_threshold_search.py
 |   `-- threshold_visualization.py
-|-- notebooks/
 |-- data/
 |   |-- BSDS500_processed/
 |   `-- sample_images/
@@ -59,6 +57,42 @@ Probabilistic-Edge-Detection/
     |-- figures/
     `-- metrics/
 ```
+
+## Code and data availability
+
+The full source code of the proposed method is provided in this repository, including implementation files, experiment scripts, evaluation utilities, usage instructions, and software dependencies.
+
+The BSDS500 and Multicue datasets used in the experiments are not redistributed in this repository due to their size and licensing/distribution conditions. Instead, this repository provides the expected folder structure, preprocessing/evaluation instructions, and commands required to reproduce the experiments after downloading the datasets from their official sources.
+
+Users should download the datasets from their official providers and organize them according to the folder structure described below.
+
+
+## Datasets
+
+The experiments reported in the manuscript were conducted on BSDS500 and Multicue.
+
+These datasets are not included in this repository due to their size and licensing/distribution conditions. Users should download them from their official sources and place them in the expected folders.
+
+Official dataset sources:
+
+- BSDS500: add the official link here
+- Multicue: add the official link here
+
+Expected structure for BSDS500:
+
+```text
+data/
+└── BSDS500_processed/
+    ├── images/
+    │   └── test/
+    └── ground_truth/
+        └── test/
+Expected structure for Multicue:
+
+data/
+└── Multicue/
+    ├── multicue_image/
+    └── multicue_edges/
 
 ## Installation
 
@@ -111,7 +145,7 @@ python experiments/bsds500_evaluation.py \
   --out_dir results/metrics/bsds500 \
   --lambda_param 5.0 \
   --gaussian_sigma 0.6 \
-  --n_thresholds 530
+  --n_thresholds 100
 ```
 
 Outputs:
@@ -193,15 +227,7 @@ python experiments/threshold_visualization.py \
   --max_images 10
 ```
 
-## Google Colab
 
-The original experimental notebook can be placed in:
-
-```text
-notebooks/demo_colab.ipynb
-```
-
-A public Colab link can also be added here after uploading the notebook.
 
 ## Citation
 
@@ -226,7 +252,4 @@ https://doi.org/10.5281/zenodo.20036523
 ## License
 
 This project is released under the MIT License.
-=======
-# A-Probabilistic-Framework-for-Edge-Detection
-Full source code and datasets for the A Probabilistic Framework for Edge Detection Based on Local Intensity Differences (The Visual Computer submission).
->>>>>>> 8a501d9a6f00bf62a5c83e66a71c1585230bd590
+
