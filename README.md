@@ -75,8 +75,8 @@ These datasets are not included in this repository due to their size and licensi
 
 Official dataset sources:
 
-- BSDS500: add the official link here
-- Multicue: add the official link here
+- BSDS500: https://www.kaggle.com/datasets/balraj98/berkeley-segmentation-dataset-500-bsds500
+- Multicue: https://serre.lab.brown.edu/#/resources/the-multi-cue-boundary-detection-dataset
 
 Expected structure for BSDS500:
 
